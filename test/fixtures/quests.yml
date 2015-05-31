@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  category: MyString
+  priority: 9.99
+  finish_date: 2015-05-31
+  procent_done: MyString
+  decimal: MyString
+
+two:
+  name: MyString
+  category: MyString
+  priority: 9.99
+  finish_date: 2015-05-31
+  procent_done: MyString
+  decimal: MyString
