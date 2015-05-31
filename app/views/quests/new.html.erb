@@ -1,5 +1,10 @@
 <%= form_for @quest do |f| %>
   <%= f.label :name %>
   <%= f.text_field :name %>
+  <%= f.select( :category ,['project','event','skill'] )%>
   <%= f.submit %>
+<%end%>
+
+<% if @error==1 %>
+  <%= flash[:notice] %>
 <%end%>

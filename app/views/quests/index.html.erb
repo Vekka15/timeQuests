@@ -4,7 +4,7 @@
   <%= link_to("Sign up",new_user_registration_path) %>
 <% else %>
 <%= link_to("Nowy", new_quest_path) %>
-  <% @quests.each do |quests| %>
+  <% (current_user.quests).each do |quests| %>
     <%= quests.name %>
   <% end %>
   <%= link_to("Sign out", destroy_user_session_path, method: :delete) %>
